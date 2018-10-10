@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Time } from './Time';
-import './App.css';
+import { Time } from './components/Time';
+import './styles/App.css';
 
 class App extends Component {
   render() {

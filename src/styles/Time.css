@@ -1,0 +1,15 @@
+.clock-container {
+    font-family: 'Syncopate', sans-serif;
+    border: 2px solid rgb(34, 59, 80);
+    height: 300px;
+    width: 300px;
+    border-radius: 40%;
+    cursor: pointer;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+
+
+
+.analog {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
+}
+.inner-clock {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    padding: 0;
+    margin: 0;
+}
+.middle-dot { 
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
+}
+
+/* HANDS */
+
+.hand {
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.hand h6 {
+    text-shadow: 0px 0px 5px rgb(27, 26, 26);
+    margin: 0;
+    position: absolute;
+}
+
+/* SECONDS HAND */
+.seconds {
+    position: absolute;
+    bottom: .5px;
+    display: inline-block;
+    width: 1px;
+    height: 140px;
+    background-color: red;
+    transform-origin: 50% 100%;
+    box-shadow: 0px 0px 5px .5px rgb(27, 26, 26);
+}
+/* MINUTES HAND */
+.minutes {
+    position: absolute;
+    bottom: 2.5px;
+    display: inline-block;
+    width: 5px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: 50% 100%;
+    box-shadow: 0px 0px 5px .5px rgb(27, 26, 26);
+}
+/* HOURS HAND */
+.hours {
+    position: absolute;
+    bottom: 2.5px;
+    display: inline-block;
+    width: 5px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    transform-origin: 50% 100%;
+    box-shadow: 0px 0px 5px .5px rgb(27, 26, 26);
+}
+
+/* DATE AND MIDDAY */
+.date-period {
+    padding: 2px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 1px 0 rgb(27, 26, 26), 
+                 1px 1px 0 rgb(27, 26, 26),
+                 1px -1px 0 rgb(27, 26, 26),
+                 -1px -1px 0 rgb(27, 26, 26);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+
